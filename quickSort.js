@@ -5,6 +5,7 @@ function quickSort(arr, start, end) {
     let index = partition(arr, start, end);
     quickSort(arr, start, index - 1);
     quickSort(arr, index + 1, end);
+    return arr;
 }
 
 function partition(arr, start, end) {
@@ -26,10 +27,4 @@ function swap(arr, i, j){
     arr[j] = temp;
 }
 
-var arr = [1, 4, 5, 3, 2];
-console.log(quickSort(arr, 0, 4))
-console.log(arr);
-
-module.exports = quickSort;
-module.exports = partition;
-module.exports = swap;
+module.exports = { quickSort, partition, swap };
