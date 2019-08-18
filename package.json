@@ -4,7 +4,7 @@
   "description": "",
   "main": "sum.js",
   "scripts": {
-    "test": "jest & git add . & git commit"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",

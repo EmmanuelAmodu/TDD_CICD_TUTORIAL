@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1566151937463" clover="3.2.0">
+  <project timestamp="1566151937464" name="All files">
+    <metrics statements="46" coveredstatements="33" conditionals="12" coveredconditionals="7" methods="5" coveredmethods="3" elements="63" coveredelements="43" complexity="0" loc="46" ncloc="46" packages="1" files="3" classes="3"/>
+    <file name="quickSort.js" path="C:\Users\Shixel Studios\Desktop\CICD_TDD_Tutorial\quickSort.js">
+      <metrics statements="19" coveredstatements="6" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <line num="2" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="3" count="0" type="stmt"/>
+      <line num="5" count="0" type="stmt"/>
+      <line num="6" count="0" type="stmt"/>
+      <line num="7" count="0" type="stmt"/>
+      <line num="12" count="0" type="stmt"/>
+      <line num="13" count="0" type="stmt"/>
+      <line num="14" count="0" type="stmt"/>
+      <line num="15" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="16" count="0" type="stmt"/>
+      <line num="17" count="0" type="stmt"/>
+      <line num="20" count="0" type="stmt"/>
+      <line num="21" count="0" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="26" count="1" type="stmt"/>
+      <line num="27" count="1" type="stmt"/>
+      <line num="30" count="1" type="stmt"/>
+      <line num="31" count="1" type="stmt"/>
+      <line num="32" count="1" type="stmt"/>
+    </file>
+    <file name="whatFlavors.js" path="C:\Users\Shixel Studios\Desktop\CICD_TDD_Tutorial\whatFlavors.js">
+      <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <line num="3" count="3" type="stmt"/>
+      <line num="4" count="3" type="stmt"/>
+      <line num="7" count="3" type="stmt"/>
+      <line num="8" count="3" type="cond" truecount="1" falsecount="1"/>
+      <line num="9" count="3" type="stmt"/>
+      <line num="10" count="3" type="stmt"/>
+      <line num="11" count="3" type="stmt"/>
+      <line num="14" count="3" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+    </file>
+    <file name="whatFlavorsWithHash.js" path="C:\Users\Shixel Studios\Desktop\CICD_TDD_Tutorial\whatFlavorsWithHash.js">
+      <metrics statements="17" coveredstatements="17" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+      <line num="2" count="5" type="stmt"/>
+      <line num="4" count="5" type="stmt"/>
+      <line num="5" count="46" type="cond" truecount="2" falsecount="0"/>
+      <line num="6" count="29" type="stmt"/>
+      <line num="8" count="46" type="stmt"/>
+      <line num="11" count="5" type="stmt"/>
+      <line num="12" count="46" type="stmt"/>
+      <line num="13" count="46" type="cond" truecount="2" falsecount="0"/>
+      <line num="14" count="14" type="stmt"/>
+      <line num="15" count="16" type="stmt"/>
+      <line num="16" count="16" type="cond" truecount="2" falsecount="0"/>
+      <line num="17" count="10" type="stmt"/>
+      <line num="23" count="5" type="stmt"/>
+      <line num="26" count="1" type="stmt"/>
+      <line num="28" count="1" type="stmt"/>
+      <line num="30" count="1" type="stmt"/>
+      <line num="32" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
