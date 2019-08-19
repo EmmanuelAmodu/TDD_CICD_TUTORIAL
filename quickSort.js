@@ -9,16 +9,16 @@ function quickSort(arr, start, end) {
 }
 
 function partition(arr, start, end) {
-    let pivotIndex = start;
+    let index = start;
     let pivotValue = arr[end];
     for (let i = start; i < end; i++) {
         if (arr[i] < pivotValue) {
-            swap(arr, i, pivotIndex);
-            pivotIndex++;
+            swap(arr, i, index);
+            index++;
         }
     }
-    swap(arr, pivotIndex, end);
-    return pivotIndex;
+    swap(arr, index, end);
+    return index;
 }
 
 function swap(arr, i, j){
