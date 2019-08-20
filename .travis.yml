@@ -8,12 +8,11 @@ cache:
     - node_modules
 
 after_success:
-  if ([ "$TRAVIS_BRANCH" == "master" ] || [ ! -z "$TRAVIS_TAG" ]) && 
-      [ "$TRAVIS_PULL_REQUEST" == "true" ]; then
-    git pull origin dev
-    git pull origin master
-    git merge dev
-    git push origin master
-  else
-    echo "This will not merge!"
-  fi
+  - test $TRAVIS_BRANCH = "master" && "$TRAVIS_PULL_REQUEST" = "true"
+  # - eval "$(ssh-agent -s)" #start the ssh agent
+  # - chmod 600 .travis/deploy_key.pem # this key should have push access
+  # - ssh-add .travis/deploy_key.pem
+  - git pull origin dev
+  - git pull origin master
+  - git merge dev
+  - git push origin master
