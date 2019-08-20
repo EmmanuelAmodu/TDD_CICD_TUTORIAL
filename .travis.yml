@@ -8,5 +8,9 @@ cache:
     - node_modules
 
 after_success:
-  if: branch = master
-    script: git merge dev
+  if ([ "$TRAVIS_BRANCH" == "master" ] || [ ! -z "$TRAVIS_TAG" ]) && 
+      [ "$TRAVIS_PULL_REQUEST" == "true" ]; then
+    git merge dev
+  else
+    echo "This will not deploy!"
+  fi
