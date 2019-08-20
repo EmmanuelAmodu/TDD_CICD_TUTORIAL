@@ -11,4 +11,4 @@ jobs:
   include:
     - stage: test
       if: branch = master
-      script: git merge dev
+        script: git merge dev
