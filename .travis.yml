@@ -7,8 +7,6 @@ cache:
   directories:
     - node_modules
 
-jobs:
-  include:
-    - stage: test
-      if: branch = master
-        script: git merge dev
+after_success:
+  if: branch = master
+    script: git merge dev
