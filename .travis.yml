@@ -14,7 +14,7 @@ after_success:
   # - ssh-add .travis/deploy_key.pem
   - git pull origin dev
   - git pull origin master
-  - git checkout dev
-  - git checkout master
-  - git merge dev
+  - git checkout origin/dev
+  - git checkout origin/master
+  - git merge origin/dev
   - git push origin master
