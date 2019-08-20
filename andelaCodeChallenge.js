@@ -6,7 +6,7 @@ function zeros (n) {
     return Math.floor(count); 
 }
 
-var palindromeChainLength = function (n) {
+function palindromeChainLength(n) {
     var steps = 0;
     var reverseN = parseInt((n.toString()).split('').reverse().join(''));
     while (reverseN !== n) {
